@@ -2,13 +2,13 @@
 CC = gcc
 
 # Compiler flags
-CFLAGS = -Wall -Wextra -O2
+CFLAGS = -Wall -Wextra -O2 -Iinclude
 
 # Target binary
 TARGET = xtask
 
 # Source files
-SRCS = xtask.c
+SRCS = src/xtask.c
 
 # Libraries to link
 LIBS = -lncurses
